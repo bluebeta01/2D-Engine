@@ -1,0 +1,21 @@
+﻿  main.cpp
+c:\users\logan\desktop\2d-engine\framework\texture.h(25): warning C4101: 'header': unreferenced local variable
+c:\users\logan\desktop\2d-engine\engine\main.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.obj : error LNK2001: unresolved external symbol "void __cdecl framework::Init(void (__cdecl*)(void),void (__cdecl*)(void),void (__cdecl*)(void))" (?Init@framework@@YAXP6AXXZ00@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl framework::render::endDraw(void)" (?endDraw@render@framework@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl framework::render::drawSprite(float,float,float,float)" (?drawSprite@render@framework@@YAXMMMM@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl framework::render::beginDraw(void)" (?beginDraw@render@framework@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol png_read_image
+main.obj : error LNK2001: unresolved external symbol png_init_io
+main.obj : error LNK2001: unresolved external symbol png_set_interlace_handling
+main.obj : error LNK2001: unresolved external symbol png_get_image_width
+main.obj : error LNK2001: unresolved external symbol png_get_image_height
+main.obj : error LNK2001: unresolved external symbol png_read_info
+main.obj : error LNK2001: unresolved external symbol png_get_rowbytes
+main.obj : error LNK2001: unresolved external symbol png_read_update_info
+main.obj : error LNK2001: unresolved external symbol png_set_sig_bytes
+main.obj : error LNK2001: unresolved external symbol png_get_color_type
+main.obj : error LNK2001: unresolved external symbol png_get_bit_depth
+main.obj : error LNK2001: unresolved external symbol png_create_read_struct
+main.obj : error LNK2001: unresolved external symbol png_create_info_struct
+C:\Users\Logan\Desktop\2D-Engine\x64\Release\engine.exe : fatal error LNK1120: 17 unresolved externals
