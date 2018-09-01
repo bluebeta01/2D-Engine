@@ -1,4 +1,6 @@
 #include "glfw_window.h"
+#include "glsetup.h"
+#include "spriterenderer.h"
 #include <GLFW/glfw3.h>
 #include <GL/glew.h>
 
@@ -25,20 +27,19 @@ namespace framework
 		glfwMakeContextCurrent(window);
 
 		glewInit();
+		framework::render::initShaders();
+		framework::render::initSpriteRenderer();
 		initCallback();
 
 		/* Loop until the user closes the window */
 		while (!glfwWindowShouldClose(window))
 		{
-			glClear(GL_COLOR_BUFFER_BIT);
+			
 
 			updateCallback();
 			renderCallback();
-			glClearColor(0.0, 0.5, 1.0, 1.0);
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-			glfwSwapBuffers(window);
-			glfwPollEvents();
+			
 		}
 
 		glfwTerminate();

@@ -1,2 +1,14 @@
-﻿  glfw_window.cpp
-  framework.vcxproj -> C:\Users\Logan\Desktop\2DGAME\x64\Debug\framework.lib
+﻿  assetloader.cpp
+c:\users\logan\desktop\2d-engine\framework\log.h(10): warning C4091: 'static ': ignored on left of 'framework::LOG_LEVEL' when no variable is declared
+  framework.cpp
+  glfw_window.cpp
+  glsetup.cpp
+c:\users\logan\desktop\2d-engine\framework\log.h(10): warning C4091: 'static ': ignored on left of 'framework::LOG_LEVEL' when no variable is declared
+  spriterenderer.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\logan\desktop\2d-engine\dependancies\glfw-3.2.1.bin.win64\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\logan\desktop\2d-engine\framework\log.h(10): warning C4091: 'static ': ignored on left of 'framework::LOG_LEVEL' when no variable is declared
+c:\users\logan\desktop\2d-engine\framework\spriterenderer.cpp(56): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\logan\desktop\2d-engine\framework\spriterenderer.cpp(57): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Generating Code...
+  framework.vcxproj -> C:\Users\Logan\Desktop\2D-Engine\x64\Debug\framework.lib

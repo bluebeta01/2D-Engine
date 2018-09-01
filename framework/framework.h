@@ -1,5 +1,7 @@
 #pragma once
-
+#include "assetloader.h"
+#include "spriterenderer.h"
+#include "texture.h"
 
 namespace framework
 {
