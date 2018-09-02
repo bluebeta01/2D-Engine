@@ -1,43 +1,15 @@
 #include "framework.h"
-#include <iostream>
-#include <string>
+#include "c_game.h"
 
-float x = 1.0f;
+Game* game;
 
-using namespace framework;
-using namespace framework::render;
-
-void Init()
-{
-	Texture t;
-	t = Texture::read_png_file("assets/textures/tex.png");
-	std::cout << t.width << std::endl;
-}
-
-void Update()
-{
-
-}
-
-void Render()
-{
-	beginDraw();
-
-	for (int x = 0; x < 10; x++)
-	{
-		for (int y = 0; y < 10; y++)
-		{
-			if (x%2 == 0 || y%2 == 0)
-			{
-				drawSprite(x, y, 1, 1);
-			}
-		}
-	}
-
-	endDraw();
-}
+void init() { game->Init(); }
+void update() { game->Update(); }
+void render() { game->Render(); }
 
 int main()
 {
-	Init(&Init, &Render, &Update);
+	game = new Game();
+	framework::Init(&init, &render, &update);
+	delete game;
 }

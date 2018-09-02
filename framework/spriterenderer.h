@@ -1,4 +1,6 @@
 #pragma once
+#include "maths.h"
+#include "texture.h"
 
 namespace framework
 {
@@ -7,8 +9,9 @@ namespace framework
 		extern float zoomFactor;
 
 		void initSpriteRenderer();
+		void setTexture(Texture* texture);
 		void beginDraw();
-		void drawSprite(float x, float y, float width, float height);
+		void drawSprite(math::Rect position, math::Rect uvs);
 		void endDraw();
 
 		

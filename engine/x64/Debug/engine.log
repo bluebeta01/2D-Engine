@@ -1,11 +1,6 @@
-﻿  main.cpp
-c:\users\logan\desktop\2d-engine\engine\main.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  libpng16.lib(png.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+﻿  libpng16.lib(png.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-c:\users\logan\desktop\zlib-master\deflate.c(2102): error C2220: warning treated as error - no 'executable' file generated
 c:\users\logan\desktop\zlib-master\deflate.c(2102): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
   c:\users\logan\desktop\zlib-master\deflate.c(2102) : note: index 'dist' range checked by comparison on this line
   c:\users\logan\desktop\zlib-master\deflate.c(2102) : note: feeds memory load on this line
@@ -15,4 +10,5 @@ c:\users\logan\desktop\zlib-master\deflate.c(1992): warning C5045: Compiler will
 c:\users\logan\desktop\zlib-master\deflate.c(1867): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
   c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: index 'dist' range checked by comparison on this line
   c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: feeds memory load on this line
-LINK : fatal error LNK1257: code generation failed
+  Finished generating code
+  engine.vcxproj -> C:\Users\Logan\Desktop\2D-Engine\x64\Debug\engine.exe

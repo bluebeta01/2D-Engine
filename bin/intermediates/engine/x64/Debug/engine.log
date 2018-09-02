@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  c_rendermanager.cpp
+c:\users\logan\desktop\2d-engine\framework\framework.h(2): warning C4005: 'GLEW_STATIC': macro redefinition
+  c:\users\logan\desktop\2d-engine\framework\framework.h(2): note: command-line arguments:  see previous definition of 'GLEW_STATIC'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  libpng16.lib(png.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+c:\users\logan\desktop\zlib-master\deflate.c(2102): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+  c:\users\logan\desktop\zlib-master\deflate.c(2102) : note: index 'dist' range checked by comparison on this line
+  c:\users\logan\desktop\zlib-master\deflate.c(2102) : note: feeds memory load on this line
+c:\users\logan\desktop\zlib-master\deflate.c(1992): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+  c:\users\logan\desktop\zlib-master\deflate.c(1992) : note: index 'dist' range checked by comparison on this line
+  c:\users\logan\desktop\zlib-master\deflate.c(1992) : note: feeds memory load on this line
+c:\users\logan\desktop\zlib-master\deflate.c(1867): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+  c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: index 'dist' range checked by comparison on this line
+  c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: feeds memory load on this line
+  Finished generating code
+  engine.vcxproj -> C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\engine.exe
+  Copies the built binary to the working directory.
+          1 file(s) copied.

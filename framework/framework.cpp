@@ -1,10 +1,10 @@
 #include "framework.h"
-#include "glfw_window.h"
+#include "win32_window.h"
 
 namespace framework
 {
 	void Init(void(*initCallback)(), void(*renderCallback)(), void(*updateCallback)())
 	{
-		InitWindow(initCallback, renderCallback, updateCallback);
+		framework::render::InitWindow(initCallback, renderCallback, updateCallback);
 	}
 }
