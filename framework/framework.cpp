@@ -7,4 +7,8 @@ namespace framework
 	{
 		framework::render::InitWindow(initCallback, renderCallback, updateCallback);
 	}
+	void Init(void* windowHandle)
+	{
+		framework::render::InitWindow(windowHandle);
+	}
 }

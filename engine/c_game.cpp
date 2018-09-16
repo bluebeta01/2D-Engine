@@ -19,3 +19,8 @@ void Game::Render()
 {
 	pRenderManager->Render();
 }
+
+Game::~Game()
+{
+	delete pRenderManager;
+}

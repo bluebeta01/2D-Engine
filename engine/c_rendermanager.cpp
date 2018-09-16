@@ -11,6 +11,11 @@ RenderManager::RenderManager()
 	pTextureManager->LoadAllTextures();
 }
 
+RenderManager::~RenderManager()
+{
+	delete pTextureManager;
+}
+
 void RenderManager::Render()
 {
 	beginDraw();

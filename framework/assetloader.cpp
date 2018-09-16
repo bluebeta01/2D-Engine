@@ -5,6 +5,7 @@
 #include <fstream>
 #include <string>
 #include <GL/glew.h>
+#include <png.h>
 
 using namespace framework::render;
 

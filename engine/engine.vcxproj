@@ -160,9 +160,7 @@
       <AdditionalDependencies>zlib.lib;libpng16.lib;opengl32.lib;glew32s.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)working_dir
-
-copy $(OutDir)$(TargetName).pdb $(SolutionDir)working_dir</Command>
+      <Command>copy $(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)working_dir</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copies the built binary to the working directory.</Message>
@@ -187,9 +185,7 @@ copy $(OutDir)$(TargetName).pdb $(SolutionDir)working_dir</Command>
       <AdditionalDependencies>zlib.lib;libpng16.lib;opengl32.lib;glew32s.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)working_dir
-
-copy $(OutDir)$(TargetName).pdb $(SolutionDir)working_dir</Command>
+      <Command>copy $(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)working_dir</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copies the built binary to the working directory.</Message>
@@ -199,6 +195,8 @@ copy $(OutDir)$(TargetName).pdb $(SolutionDir)working_dir</Command>
     <ClCompile Include="c_game.cpp" />
     <ClCompile Include="c_rendermanager.cpp" />
     <ClCompile Include="c_texturemanager.cpp" />
+    <ClCompile Include="editor\c_editor.cpp" />
+    <ClCompile Include="editor\win_proc.cpp" />
     <ClCompile Include="frame_counter.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -208,9 +206,11 @@ copy $(OutDir)$(TargetName).pdb $(SolutionDir)working_dir</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="editor\c_editor.h" />
     <ClInclude Include="c_game.h" />
     <ClInclude Include="c_rendermanager.h" />
     <ClInclude Include="c_texturemanager.h" />
+    <ClInclude Include="editor\win_proc.h" />
     <ClInclude Include="frame_counter.h" />
     <ClInclude Include="log.h" />
   </ItemGroup>

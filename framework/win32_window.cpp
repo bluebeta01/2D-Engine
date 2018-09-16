@@ -128,5 +128,16 @@ namespace framework
 
 			return;
 		}
+
+		void InitWindow(void* windowHandle)
+		{
+			hInstance = GetModuleHandle(NULL);
+			hwnd = (HWND)windowHandle;
+
+			createOpenglContext();
+
+			framework::render::initShaders();
+			framework::render::initSpriteRenderer();
+		}
 	}
 }

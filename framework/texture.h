@@ -1,6 +1,5 @@
 #pragma once
 #pragma warning (disable : 4996)
-#include <png.h>
 #include <iostream>
 #include "maths.h"
 

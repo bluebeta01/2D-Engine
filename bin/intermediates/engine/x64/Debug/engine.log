@@ -1,8 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  c_rendermanager.cpp
-c:\users\logan\desktop\2d-engine\framework\framework.h(2): warning C4005: 'GLEW_STATIC': macro redefinition
-  c:\users\logan\desktop\2d-engine\framework\framework.h(2): note: command-line arguments:  see previous definition of 'GLEW_STATIC'
+  main.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   libpng16.lib(png.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
@@ -18,6 +16,28 @@ c:\users\logan\desktop\zlib-master\deflate.c(1867): warning C5045: Compiler will
   c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: index 'dist' range checked by comparison on this line
   c:\users\logan\desktop\zlib-master\deflate.c(1867) : note: feeds memory load on this line
   Finished generating code
+libpng16.lib(png.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(png.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngread.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngread.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngerror.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngerror.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngget.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngget.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwrite.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwrite.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwutil.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwutil.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngmem.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngmem.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrio.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrio.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrutil.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrutil.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrtran.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrtran.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngtrans.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngtrans.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngset.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngset.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwio.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwio.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwtran.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwtran.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\libpng.pdb'; linking object as if no debug info
+zlib.lib(adler32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(adler32.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inflate.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(crc32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(crc32.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(deflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(deflate.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inftrees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inftrees.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inffast.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inffast.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(zutil.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(zutil.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(trees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(trees.obj)' or at 'C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\zlib.pdb'; linking object as if no debug info
   engine.vcxproj -> C:\Users\Logan\Desktop\2D-Engine\bin\engine\x64\Debug\engine.exe
   Copies the built binary to the working directory.
           1 file(s) copied.
